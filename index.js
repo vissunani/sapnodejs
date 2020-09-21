@@ -1,4 +1,5 @@
 const express=require('express')
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -16,7 +17,7 @@ app.get('/:name',function(req,res)
 
 
 
-app.listen(9000,function(req,res)
+app.listen(PORT,function(req,res)
 {
     console.log("Hello Evryone");
 }
