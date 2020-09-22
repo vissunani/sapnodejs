@@ -11,7 +11,7 @@ app.get('/',function(req,res)
 app.get('/:name',function(req,res)
 {
     const name = req.params.name;
-    res.send("It is "+name+" page");
+    res.send("It is "+name+" page yoo man");
 })
 
 
