@@ -11,7 +11,7 @@ app.get('/',function(req,res)
 app.get('/:name',function(req,res)
 {
     const name = req.params.name;
-    res.send("It is a Sadinchav ra nuvvu final ra ya"+name+" page yoo man");
+    res.send("its is working "+name+" page yoo man");
 })
 
 
@@ -20,5 +20,6 @@ app.get('/:name',function(req,res)
 app.listen(PORT,function(req,res)
 {
     console.log("Hello Evryone");
+	console.log(PORT);
 }
 );
