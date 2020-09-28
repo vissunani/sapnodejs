@@ -1,5 +1,11 @@
 #! /bin/bash
 
+
+docker stop $(docker ps -a -q)
+
+docker rm node
+
+
 IMAGE_NAME=node
 
 # run container
